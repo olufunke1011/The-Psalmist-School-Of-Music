@@ -139,7 +139,7 @@
 
     .school-description {
         
-        background:url(./Assets/imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
+        background:url(./imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
         background-size: cover;
         background-position: cover;
         background-blend-mode: overlay;
@@ -303,19 +303,11 @@
   
     .contact {
         min-height: 100%;
-        background:url(./Assets/imgs/mic.png);
+        background:url(./imgs/mic.png);
         background-size:contain;
         /* background-position: cover; */
         box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
         text-align: center;
-        
-  
-        /* background:url(./Assets/imgs/mic.png), linear-gradient(rgba(205, 162, 83, 0.92),rgba(205, 162, 83, 0.92));
-        background-size: contain;
-        background-position: bottom;
-        background-blend-mode: overlay;
-        text-align: center;
-        min-height: 100%; */
 
     } 
 
@@ -380,15 +372,6 @@
         color: #F3F3F3;
     }
 
-    /* .rock-mic {
-        position: absolute;
-        width: 24.0625em;
-        height: 28.125em;
-        left: 40em;
-        top: 209.75em;
-        filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15)) drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
-        z-index: 5;
-    } */
 
                          /* FOOTER */
     footer {
@@ -851,7 +834,7 @@
 
     .school-description {
 		
-		background:url(./Assets/imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
+		background:url(./imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
 		background-size: contain;
 		background-position: cover;
 		background-blend-mode: overlay;
@@ -1017,7 +1000,7 @@
   
     .contact {
         min-height: 100%;
-        background:url(./Assets/imgs/mic.png);
+        background:url(./imgs/mic.png);
         background-size:contain;
         /* background-position: contain; */
         box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
@@ -1370,7 +1353,7 @@
     .contact {
 
         position: relative;
-        background:url(./Assets/imgs/group_pics.png);
+        background:url(./imgs/group_pics.png);
         box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
         background-size: cover;
         background-position: cover;
@@ -1787,7 +1770,7 @@
       .contact {
 
         position: relative;
-        background:url(./Assets/imgs/group_pics.png);
+        background:url(./imgs/group_pics.png);
         box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
         background-size: cover;
         background-position: cover;
@@ -2216,7 +2199,7 @@
     .contact {
 
         position: relative;
-        background:url(./Assets/imgs/group_pics.png);
+        background:url(./imgs/group_pics.png);
         box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
         background-size: cover;
         background-position: cover;
