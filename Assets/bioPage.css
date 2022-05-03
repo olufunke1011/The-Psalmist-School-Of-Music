@@ -1,0 +1,466 @@
+.headerNav {
+    background: #0D052E;
+   
+}
+
+@media only screen and (min-width : 320px) {
+			 	/* body {
+					 overflow: hidden;
+				 } */
+				 .desktopView {
+					 display: none;
+				 }
+
+			  .navLink {
+            background: #CDA253;
+            min-width: 5em;
+            min-height: 12em;	
+            position: absolute;
+            top: 100%;
+            bottom: 0;
+            left: -120%;
+            right: 0;
+            z-index: 10;
+        }
+
+        nav .navbar-nav li a {
+
+            font-family: 'Milonga', cursive;
+            text-align: center;	
+            font-size: 1em;
+            margin: 1em 0 0 23em;
+            color: #FFFFFF;
+          }
+
+
+        .TutorsPage {
+            background:url(./imgs/group_pics2.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
+            background-size: contain;
+            background-position: cover;
+            background-blend-mode: overlay;
+            text-align: center;
+            min-height: 10em;
+        }
+
+        .meetTutors {
+            padding: 3em 0 0 0;
+            font-family: 'Milonga', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 58px;
+            text-align: center;
+            letter-spacing: 0.11em;
+            color: #CDA253;
+        }
+
+        .Tutors-FullBio {
+            padding: 1em 2em;
+        }
+
+        .pictures {
+            width: 15em;
+        }
+
+        .tutorsIdentity {
+            display: flex;
+            padding: 0 0 0 2em;
+        }
+
+        .nameDuty {
+            padding-left: 1em;
+        }
+
+        .gradient-line {
+            width:  0.238125em;
+            height:  3.006875em;
+            background: linear-gradient(180deg, #0D052E 47.56%, rgba(13, 5, 46, 0) 100%);
+        }
+        
+        .tutorName {
+            font-family: 'Milonga', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.6em;
+            line-height: 33px;
+            color: #CDA253;
+        
+        }
+        
+        .tutorDuty {
+            font-family: 'Krub', sans-serif;
+            font-style: italic;
+            font-weight: normal;
+            font-size: .8em;
+            /* padding-top: .8em; */
+            line-height: 23px;
+            color: #000000;
+        
+        }
+
+        .tutors-bio {
+            font-size: 0.875em;
+            font-family:'Krub', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 19px;
+            letter-spacing: 0.08em;
+            color: #000000;
+        }
+
+        footer {
+            text-align: center;
+            background: #F3F3F3;
+        }
+        
+        .mediaIcon-container {
+            margin: 2em 0 2em 2em;
+        }
+        
+        .social-icon {
+            background: #CDA253;
+            border-radius: 50%;
+            width: 2.1875em;
+            height: 2.1875em;
+            padding: .35em;
+            margin-right: 2.5em;
+        }
+        
+        .social-media {
+            width: 1.0625em;
+            margin-bottom: .2em;
+        }
+        
+        .rights-reserve {
+            font-family: 'Krub', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 0.8125em;
+            line-height: 1.0625em;
+            color: #000000;
+        }
+        
+        .copyright {
+            font-size: 1.0625em;
+        }
+          
+ }      
+
+
+@media only screen and (min-width: 375px){
+				 
+			.desktopView {
+				display: none;
+			}
+
+			.nav .navbar-nav li a {
+
+        font-family: 'Milonga', cursive;
+        text-align: center;	
+        font-size: 1em;
+        margin: 1em 0 0 28em;
+        color: #FFFFFF;
+      }   
+
+      .tutorImg-Container {
+          margin-left: 2em;
+      }
+
+      .tutorsIdentity {
+          margin-left: 2em;
+      }
+    }
+
+@media only screen and (min-width: 425px){
+
+					.desktopView {
+						display: none;
+					}
+
+					.nav .navbar-nav li a {
+
+						font-family: 'Milonga', cursive;
+						text-align: center;	
+						font-size: 1em;
+						margin: 1em 0 0 32em;
+						color: #FFFFFF;
+					}
+
+					.TutorsPage {
+            background:url(./imgs/group_pics2.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
+            background-size: cover;
+            background-position: cover;
+            background-blend-mode: overlay;
+            text-align: center;
+						min-height: 10em;
+				}
+				
+					.meetTutors {
+						padding: 4em 0 0 0;
+					}
+					
+					.pictures {
+						margin: 0 0 0 2em;
+				}
+
+				.tutorsIdentity {
+					margin: 0 0 0 4em;
+				}
+
+	}
+	
+@media only screen and (min-width : 768px){
+					
+						.desktopView {
+							display: none;
+						}
+
+						.navLink {
+						background: #CDA253;
+						min-width: 5em;
+						min-height: 20em;	
+						position: absolute;
+						top: 100%;
+						bottom: 0;
+						left: -120%;
+						right: 0;
+						z-index: 10;
+				}
+
+				nav .navbar-nav li a {
+
+					font-family: 'Milonga', cursive;
+					text-align: center;	
+					font-size: 1.5em;
+					margin: 2em 0 0 37em;
+					color: #FFFFFF;
+				}
+
+
+			.TutorsPage {
+					background:url(./imgs/group_pics2.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
+					background-size: cover;
+					background-position: cover;
+					background-blend-mode: overlay;
+					text-align: center;
+					min-height: 20em;
+			}
+
+				.meetTutors {
+					padding: 4.5em 0 0 0;
+					font-family: 'Milonga', cursive;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 2em;
+					line-height: 58px;
+					text-align: center;
+					letter-spacing: 0.11em;
+					color: #CDA253;
+			}
+
+				.Tutors-FullBio {
+					padding: 1em 3em;
+			}
+
+				.pictures {
+					width: 20em;
+			}
+
+			.tutorImg-Container {
+				text-align: center;
+			}
+
+			.tutorsIdentity {
+					display: flex;
+					padding: 0 0 0 12em;
+			}
+
+			.nameDuty {
+					padding-left: 1em;
+			}
+
+			.gradient-line {
+					width:  0.238125em;
+					height:  3.006875em;
+					background: linear-gradient(180deg, #0D052E 47.56%, rgba(13, 5, 46, 0) 100%);
+			}
+			
+			.tutorName {
+					font-family: 'Milonga', cursive;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 1.8em;
+					line-height: 33px;
+					color: #CDA253;
+			
+			}
+			
+			.tutorDuty {
+					font-family: 'Krub', sans-serif;
+					font-style: italic;
+					font-weight: normal;
+					font-size: 1.2em;
+					line-height: 23px;
+					color: #000000;
+			
+			}
+
+				.tutors-bio {
+					font-size: 1.5em;
+					font-family:'Krub', sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					line-height: 1.5em;
+					letter-spacing: 0.08em;
+					color: #000000;
+			}
+
+				footer {
+					text-align: center;
+					background: #F3F3F3;
+			}
+			
+				.mediaIcon-container {
+					margin: 2em 0 2em 2em;
+			}
+			
+				.social-icon {
+					background: #CDA253;
+					border-radius: 50%;
+					width: 5em;
+					height: 5em;
+					padding: .35em;
+					margin-right: 5em;
+			}
+			
+				.social-media {
+					width: 1.2em;
+					margin-bottom: .2em;
+			}
+			
+				.rights-reserve {
+					font-family: 'Krub', sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 1.2em;
+					line-height: 1.0625em;
+					color: #000000;
+			}
+			
+				.copyright {
+					font-size: 1.0625em;
+			} 
+				
+
+		}
+
+@media only screen  and (min-width : 1024px) {
+
+			.navLink {
+				width: 0;
+			}
+
+			nav .navbar-nav li a {
+				display: none;
+			}
+
+			.desktopView {
+				display: block;
+			}
+
+			.home-direct {
+				text-decoration: none;
+				position: relative;
+				top: 0;
+				right: 45%;
+				bottom: 0;
+				left: 5;
+				color: #F3F3F3;
+			}
+
+			.PSM-Events {
+				padding-bottom: 7em;
+			}
+
+			.pictures {
+				width: 25em;
+			}
+
+			.tutorsIdentity {
+				display: flex;
+				/* padding: 0 0 0 12em; */
+				margin-left: 12em;
+			}
+
+		/* .nameDuty {
+				padding-left: 1em;
+		} */
+
+			.gradient-line {
+				width:  0.3em;
+				height:  3.506875em;
+				background: linear-gradient(180deg, #0D052E 47.56%, rgba(13, 5, 46, 0) 100%);
+			}
+		
+			.tutorName {
+				font-family: 'Milonga', cursive;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 2em;
+				line-height: 33px;
+				color: #CDA253;
+		
+			}
+		
+			.tutorDuty {
+				font-family: 'Krub', sans-serif;
+				font-style: italic;
+				font-weight: normal;
+				font-size: 1em;
+				line-height: 23px;
+				color: #000000;
+		
+			}
+
+			.tutors-bio {
+				font-size: 1.5em;
+				font-family:'Krub', sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				line-height: 1.5em;
+				letter-spacing: 0.08em;
+				color: #000000;
+			}
+	
+			.mediaIcon-container {
+			margin: 2em 0 2em 2em;
+			}
+	
+			.social-icon {
+			background: #CDA253;
+			border-radius: 50%;
+			width: 2em;
+			height: 2em;
+			padding: .35em;
+			margin-right: 2.5em;
+			}
+	
+	 		.social-media {
+			width: 1.0625em;
+			margin-bottom: .2em;
+			} 
+	
+			.rights-reserve {
+			font-family: 'Krub', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 0.8125em;
+			line-height: 1.0625em;
+			color: #000000;
+			}
+	
+			.copyright {
+			font-size: 1.0625em;
+			}
+
+			}
