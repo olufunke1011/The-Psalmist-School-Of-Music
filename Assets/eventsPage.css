@@ -1,355 +1,343 @@
 /* EVENTS-PAGE  */
-								/* Header */		
-			@media only screen and (min-width : 320px){
-					.mobileView {
-				display: block;
-				}
-				
-				.desktopView {
-				display: none;
-				}
-				
-				.eventsHeading {
-				background:url(./imgs/events-header.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
-				background-size: cover;
-				background-position: cover;
-				background-blend-mode: overlay;
-				text-align: center;
-				min-height: 10.25em;
-				}
-				
-				.eventsTitle {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 1em;
-				text-align: center;
-				color: #CDA253;
-				padding: 3em 4em;
-				
-				}
-				
-				.pastEventsText {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 1.375em;
-				text-align: center;
-				color: #CDA253;
-				padding: 1em 2em 0 2em;
-				}
-				
-				.EventsFlyers {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-				}
-				
-				.flyer {
-				width: 20.1875em;
-				height: 15.4375em;
-				padding: 1em;
-				}
-				
-				footer {
-				margin-top: 2em;
-				}
-				
-				.mediaIcon {
-				background: #CDA253;
-				border-radius: 50%;
-				width: 2.1875em;
-				height: 2.1875em;
-				padding: .35em;
-				margin: 2em 1em;
-				} 
-				
-				.SocialMedia {
-				width: 1.0625em;
-				margin: .2em 0;
-				}
-				
-				.rights-reserve {
-				font-family: 'Krub', sans-serif;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 0.6em;
-				margin-top: 3em;
-				color: #000000;
-				}
-				
-				.copyright {
-				font-size: .9em;
-				}
-				}
-				
-				@media only screen and (min-width: 375px){
+/* Header */
+@media only screen and (min-width: 320px) {
+  .mobileView {
+    display: block;
+  }
 
-				nav .navbar-nav li a {
-				font-size: 1em;
-				margin: .5em 0 0 8em;
-				}
-				
-				.navLink {
-				min-height: 11em;
-				padding: 1em 0;
-				}
-				
-				.eventsTitle {
-				font-size: 1.2em;
-				}
-				
-				.flyer {
-				width: 23.1875em;
-				height: 18.4375em;
-				padding: 1em;
-				}
-				
-				
-				}
-				@media only screen and (min-width: 425px){
+  .desktopView {
+    display: none;
+  }
 
-				nav .navbar-nav li a {
-				font-size: 1em;
-				margin: .5em 0 0 10em;
-				}
-				
-				.navLink {
-				min-height: 12em;
-				padding: 1em 0;
-				}
-				
-				.flyer {
-				width: 26.1875em;
-				height: 21.4375em;
-				padding: 1em;
-				}
-				}
-				
-				@media only screen and (min-width : 768px) {
+  .eventsHeading {
+    background: url(./imgs/events-header.png),
+      linear-gradient(rgba(13, 5, 46, 0.71), rgba(13, 5, 46, 0.71));
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 10.25em;
+  }
 
-				.mobileView {
-				display: block;
-				}
-				
-				.desktopView {
-				display: none;
-				}
-				
-				.eventsHeading {
-				background:url(./imgs/events-header.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
-				background-size: cover;
-				background-position: cover;
-				background-blend-mode: overlay;
-				text-align: center;
-				min-height: 25.25em;
-				}	
-				
-				nav .navbar-nav li a {
-				font-size: 1.5em;
-				margin: .5em 0 0 3em;
-				}
-				
-				.navLink {
-				min-height: 17em;
-				padding: 1em 0;
-				}
-				
-				.eventsTitle {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 2em;
-				text-align: center;
-				color: #CDA253;
-				padding: 4em 4em;
-				
-				}
-				
-				.pastEventsText {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 1.8em;
-				text-align: center;
-				color: #CDA253;
-				padding: 1em 2em 0 2em;
-				}
-				
-				.EventsFlyers {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-				}
-				
-				.flyer {
-				width: 23.1875em;
-				height: 18.4375em;
-				}
-				
-				footer {
-				margin-top: 2em;
-				}
-				
-				.mediaIcon {
-				background: #CDA253;
-				border-radius: 50%;
-				width: 2.1875em;
-				height: 2.1875em;
-				padding: .35em;
-				margin: 2em 2em;
-				} 
-				
-				.SocialMedia {
-				width: 1.0625em;
-				margin: .2em 0;
-				}
-				
-				.rights-reserve {
-				font-family: 'Krub', sans-serif;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 0.7em;
-				margin-top: 3em;
-				color: #000000;
-				}
-				
-				.copyright {
-				font-size: .9em;
-				}
-				
-				}
-				@media only screen  and (min-width : 1024px) {
+  .eventsTitle {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    color: #cda253;
+    padding: 3em 4em;
+  }
 
-				.desktopView {
-				display: block;
-				}	
-				
-				.mobileView {
-				display: none;
-				}
-				
-				.Events {
-				background:url(./imgs/events-header.png), linear-gradient(rgba(13, 5, 46, 0.71),rgba(13, 5, 46, 0.71));
-				background-size: cover;
-				background-position: cover;
-				background-blend-mode: overlay;
-				text-align: center;
-				min-height: 40.25em;
-				}
-				
-				.home-direct {
-				display: flex;
-				padding: 3.5em;
-				}
-				
-				.arrow {
-				width:  0.988125em;
-				Height: 0.95625em;
-				}
-				
-				.events-home {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 1.125em;
-				letter-spacing: 0.11em;
-				color: #FFFFFF;
-				margin-left: .5em;
-				}
-				
-				a {
-				text-decoration: none;
-				}
-				
-				.PSM-Events {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 2.25em;
-				margin-top: 4em;
-				letter-spacing: 0.11em;
-				color: #CDA253;
-				}
-				
-																																												/* MAIN */
-				.Events-main {
-				background: #FFFFFF;
-				}
-				
-				.past-eventsTheme {
-				text-align: center;
-				padding: 1em;
-				}
-				
-				.past-eventsTheme h6 {
-				font-family: 'Milonga', cursive;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 2.25em;
-				line-height: 3.625em;
-				letter-spacing: 0.11em;
-				color: #CDA253;
-				}
-				
-				.Past-EventsList {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
-				text-align: center;
-				grid-gap: 3.125em;
-				padding: 0 2em;
-				}
-				
-				.flyer-textCarrier {
-				background: rgba(205, 163, 84, 0.55);
-				width: 23.6000em
-				}
-				
-				.flyer-text {
-				font-family: 'Krub', sans-serif;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 24px;
-				line-height: 31px;
-				text-align: center;
-				letter-spacing: 0.01em;
-				color: #0D052E;
-				}
-				
-				}
-				
-				@media only screen  and (min-width : 1440px) {
-					
-				footer {
-				margin-top: 2em;
-				}
-				
-				.mediaIcon {
-				background: #CDA253;
-				border-radius: 50%;
-				width: 2.1875em;
-				height: 2.1875em;
-				padding: .35em;
-				margin: 2em 4em;
-				} 
-				
-				.SocialMedia {
-				width: 1.0625em;
-				margin: .2em 0;
-				}
-				
-				.rights-reserve {
-				font-family: 'Krub', sans-serif;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 1em;
-				margin-top: 3em;
-				color: #000000;
-				}
-				
-				.copyright {
-				font-size: .9em;
-				}
-				}
-				
-                                    
-                                    
-                                    
+  .pastEventsText {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375em;
+    text-align: center;
+    color: #cda253;
+    padding: 1em 2em 0 2em;
+  }
+
+  .EventsFlyers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  }
+
+  .flyer {
+    width: 20.1875em;
+    height: 15.4375em;
+    padding: 1em;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    width: 2.1875em;
+    height: 2.1875em;
+    padding: 0.35em;
+    margin: 2em 1em;
+  }
+
+  .SocialMedia {
+    width: 1.0625em;
+    margin: 0.2em 0;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    margin-top: 3em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  nav .navbar-nav li a {
+    font-size: 1em;
+    margin: 0.5em 0 0 8em;
+  }
+
+  .navLink {
+    min-height: 11em;
+    padding: 1em 0;
+  }
+
+  .eventsTitle {
+    font-size: 1.2em;
+  }
+
+  .flyer {
+    width: 23.1875em;
+    height: 18.4375em;
+    padding: 1em;
+  }
+}
+@media only screen and (min-width: 425px) {
+  nav .navbar-nav li a {
+    font-size: 1em;
+    margin: 0.5em 0 0 10em;
+  }
+
+  .navLink {
+    min-height: 12em;
+    padding: 1em 0;
+  }
+
+  .flyer {
+    width: 26.1875em;
+    height: 21.4375em;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileView {
+    display: block;
+  }
+
+  .desktopView {
+    display: none;
+  }
+
+  .eventsHeading {
+    background: url(./imgs/events-header.png),
+      linear-gradient(rgba(13, 5, 46, 0.71), rgba(13, 5, 46, 0.71));
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 25.25em;
+  }
+
+  nav .navbar-nav li a {
+    font-size: 1.5em;
+    margin: 0.5em 0 0 3em;
+  }
+
+  .navLink {
+    min-height: 17em;
+    padding: 1em 0;
+  }
+
+  .eventsTitle {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color: #cda253;
+    padding: 4em 4em;
+  }
+
+  .pastEventsText {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-align: center;
+    color: #cda253;
+    padding: 1em 2em 0 2em;
+  }
+
+  .EventsFlyers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  }
+
+  .flyer {
+    width: 23.1875em;
+    height: 18.4375em;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    width: 2.1875em;
+    height: 2.1875em;
+    padding: 0.35em;
+    margin: 2em 2em;
+  }
+
+  .SocialMedia {
+    width: 1.0625em;
+    margin: 0.2em 0;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    margin-top: 3em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .desktopView {
+    display: block;
+  }
+
+  .mobileView {
+    display: none;
+  }
+
+  .Events {
+    background: url(./imgs/events-header.png),
+      linear-gradient(rgba(13, 5, 46, 0.71), rgba(13, 5, 46, 0.71));
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 40.25em;
+  }
+
+  .home-direct {
+    display: flex;
+    padding: 3.5em;
+  }
+
+  .arrow {
+    width: 0.988125em;
+    height: 0.95625em;
+  }
+
+  .events-home {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125em;
+    letter-spacing: 0.11em;
+    color: #ffffff;
+    margin-left: 0.5em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .PSM-Events {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25em;
+    margin-top: 4em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  /* MAIN */
+  .Events-main {
+    background: #ffffff;
+  }
+
+  .past-eventsTheme {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .past-eventsTheme h6 {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  .Past-EventsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+    text-align: center;
+    grid-gap: 3.125em;
+    padding: 0 2em;
+  }
+
+  .flyer-textCarrier {
+    background: rgba(205, 163, 84, 0.55);
+    width: 23.6em;
+  }
+
+  .flyer-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0d052e;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  footer {
+    margin-top: 2em;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    width: 2.1875em;
+    height: 2.1875em;
+    padding: 0.35em;
+    margin: 2em 4em;
+  }
+
+  .SocialMedia {
+    width: 1.0625em;
+    margin: 0.2em 0;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: 3em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 0.9em;
+  }
+}
