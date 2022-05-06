@@ -1124,7 +1124,7 @@
 
 }
 
-@media only screen  and (min-width : 1025px) {
+@media only screen  and (min-width : 1024px) {
 
     .desktopView {
         display: block;
@@ -1212,20 +1212,21 @@
 		}
 		
 		
-					/* school description */
+                    /* school description */
 	
-	.SchoolDescriptionDesktopView {
+    .SchoolDescriptionDesktopView P{
+        display: block;
 		background: #F3F3F3;
-	}
+    }
 
-  .descritionDesktop {
+    .descritionDesktop {
 		display: flex;
 		flex-direction: row;
 		padding: 5em;
 
 	}
 
-	.school-description{
+	 .school-description{
 		display: none;
 	}
 
@@ -1237,10 +1238,10 @@
 	.nameDescriptionContainer {
 		padding: 0 5em;
 	}
-
+/* 
 	.allDescription {
 		margin-top: 1em;
-	}
+	} */
 
 	.classes {     
 		font-family: 'Milonga', cursive;
@@ -1628,7 +1629,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1.2em;
-        line-height: 2em;
+        /* line-height: 2em; */
         color: #000000;
     }
 
