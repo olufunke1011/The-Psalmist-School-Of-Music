@@ -1167,8 +1167,12 @@
         font-weight: normal;
         font-size: 1em;
         color: #FFFFFF;
-        margin: 1em 1em 1.5em 6em;
-        padding: 0;
+        margin: 1em 0 1.5em 2em;
+        /* padding: 0; */
+    }
+
+    .navLink {
+        margin-left: 20em;
     }
 
                  /* CAROUSEL SECTION */
@@ -1504,10 +1508,15 @@
         font-weight: normal;
         font-size: 1em;
         color: #FFFFFF;
-        margin: 1em 1em 1.5em 12em;
-        padding: 0;
+        margin: 1em 0 1.5em 5em;
+        /* padding: 0; */
     }
 
+    .navLink {
+        margin-left: 25em;
+    }
+
+   
                  /* CAROUSEL SECTION */
         
     .carousel-inner {
