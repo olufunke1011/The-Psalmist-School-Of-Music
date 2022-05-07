@@ -446,8 +446,20 @@
 			font-size: .8em;
 			color: #FFFFFF;
 			text-align: center;
-			/* margin-right: 8em; */
 
+	}
+
+							/* schoolDescription */
+
+	.school-name {
+		font-family: 'Milonga', cursive;
+		text-align: center;
+		font-size: 1.5em;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1.8em;
+		letter-spacing: 0.11em;
+		color: #CDA253;
 	}
 										/* classes */
 
@@ -505,6 +517,93 @@
 			font-size: 1em;
 	}
 
+}
+
+@media only screen and (min-width: 425px){
+
+	.navLink {
+
+			min-width: 10em;
+			min-height: 11em;	
+			position: absolute;
+			right: -5%;
+			
+	}
+
+	.nav-item {
+
+			margin-left: 30em;
+	}
+
+	nav .navbar-nav li a {
+			margin-top: .5em;
+			font-size: 1em;
+	}
+
+	.caption {
+			position: absolute;
+			top: 50%;
+			right: 30%;
+			left: 30%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 50%;
+			z-index: 1;
+			text-align: right;
+			margin-top: 3em;
+			
+	}
+
+		.caption h1 {
+			margin-bottom: 1em;
+			font-family: 'Norican';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1.5em;
+			text-align: center;
+			letter-spacing: 0.06em;
+			color: #FFFFFF;
+	}
+
+	.caption button {
+		margin: 0 4.7em 8em 0;
+		padding: .2em 1em;
+		font-size: .8em;
+		background: #CDA253;
+	}  
+
+	.school-name {
+		font-family: 'Milonga', cursive;
+		text-align: center;
+		font-size: 1.5em;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1.8em;
+		letter-spacing: 0.11em;
+		color: #CDA253;
+	}
+
+		.training-niche {
+					
+			font-size: .8em;   
+	}
+
+	.instrument-container {
+
+			margin-left: 4.5em;
+	}
+
+	.instrument-text {
+
+			font-size: 1em;
+
+	}
+									/* footer */
+		.facebook {
+			width: .7em;
+			/* padding: 0 0 0 .2em; */
+	}
+
+	
 }
 
 
