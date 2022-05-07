@@ -305,7 +305,6 @@
         min-height: 100%;
         background:url(./imgs/mic.png);
         background-size:contain;
-        /* background-position: cover; */
         box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
         text-align: center;
 
@@ -366,7 +365,6 @@
         font-style: normal;
         font-weight: normal;
         font-size: .8em;
-        /* line-height: 1.4375em; */
         padding: 0 0 3em ;
         text-align: center;
         color: #F3F3F3;
@@ -384,25 +382,21 @@
     }
 
     .mediaIcon {
-        background: #CDA253;
-        border-radius: 50%;
-        padding: .35em;
-        margin: 0 1em;
-    }
+			background: #CDA253;
+			border-radius: 50%;
+			padding: .3em;
+			margin: 0 1em;
+	}
 
-    /* .SocialMedia {
-        width: .8em;
-        margin-bottom: .2em;
-    } */
+	.facebook {
+			width: .8em;
+	}
 
-    .facebook {
-        width: .8em;
-    }
+	.SocialMedia{
+			width: 1em;
+			padding: 0 0 0 .2em;
+	}
 
-    .SocialMedia{
-        width: 1.2em;
-        padding: 0 0 0 .2em;
-    }
 
     .rights-reserve {
         font-family: 'Krub', sans-serif;
@@ -423,6 +417,93 @@
     .allTutors {
         background: #FFFFFF;
     }
+
+}
+
+@media only screen and (min-width : 375px){
+
+								/* NavLink */
+		.navLink {
+			background: #CDA253;
+			min-width: 40.7em;
+			min-height: 8.75em;	
+			position: absolute;
+			top: 100%;
+			bottom: 0;
+			left: -120%;
+			right: 0;
+			z-index: 10;
+	}
+
+	.nav-item {
+			margin:.5em 0 0 27em;
+	}
+
+	nav .navbar-nav li a {
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: normal;
+			font-size: .8em;
+			color: #FFFFFF;
+			text-align: center;
+			/* margin-right: 8em; */
+
+	}
+										/* classes */
+
+	.instrument-container {
+		text-align: center;
+		justify-content: center;
+		border:  0.125em solid #CCCCCC;
+		border-radius: 50%;
+		width: 9.625em;	
+		height: 9.625em;
+		margin: 0 0 0 2.2em;
+	}
+
+							/* FOOTER */
+	footer {
+			text-align: center;
+			background: #F3F3F3;
+	}
+
+	.handlesContainer {
+			margin: 2em 0;
+	}
+
+	.mediaIcon {
+			background: #CDA253;
+			border-radius: 50%;
+			padding: .3em;
+			margin: 0 1em;
+	}
+
+	/* .SocialMedia {
+			width: .8em;
+			margin-bottom: .2em;
+	} */
+
+	.facebook {
+			width: .8em;
+	}
+
+	.SocialMedia{
+			width: 1em;
+			padding: 0 0 0 .2em;
+	}
+
+	.rights-reserve {
+			font-family: 'Krub', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: .6em;
+			line-height: 1.0625em;
+			color: #000000;
+	}
+
+	.copyright {
+			font-size: 1em;
+	}
 
 }
 
