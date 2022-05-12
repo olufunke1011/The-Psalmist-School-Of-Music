@@ -37,7 +37,6 @@
         font-weight: normal;
         font-size: .8em;
         color: #FFFFFF;
-        /* margin-right: 8em; */
     }
 
                 /* CAROUSEL SECTION */
@@ -76,7 +75,6 @@
         bottom:0;
         left:0;
         right:0;
-        /* box-shadow: inset 0 0 0 125em, rgba(13, 5, 46, 0.11); */
         background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
         background-position: left;
         }
@@ -272,7 +270,6 @@
         font-style: normal;
         font-weight: 500;
         font-size: 1.5em;
-        /* margin-top: .1em; */
         text-transform: uppercase;
         color: #000000;
     }
@@ -490,11 +487,6 @@
 			margin: 0 1em;
 	}
 
-	/* .SocialMedia {
-			width: .8em;
-			margin-bottom: .2em;
-	} */
-
 	.facebook {
 			width: .8em;
 	}
@@ -598,9 +590,9 @@
 
 	}
 									/* footer */
+
 		.facebook {
 			width: .7em;
-			/* padding: 0 0 0 .2em; */
 	}
 
 	
@@ -847,7 +839,6 @@
     
     .pictures {
         width: 10em;
-        /* margin-left: -2em; */
     }
 
     .tutors-description {
@@ -855,7 +846,6 @@
         grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
         grid-gap: 3.125em;
         text-align: center;
-        /* margin: 3em; */
     }
 
     .name {
@@ -1183,7 +1173,6 @@
         min-height: 100%;
         background:url(./imgs/mic.png);
         background-size:contain;
-        /* background-position: contain; */
         box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
         text-align: center;
 
@@ -1210,17 +1199,6 @@
         
     }
     
-    /* .location {
-        position: absolute;
-        width:	25.1875em;
-        height:	26.125em;
-        left: 18.4375em;
-        top: 210.0625em;
-        z-index: 1;
-        background: #CDA253;
-        padding: 4em 0 0 0;
-    } */
-    
     .location-icons {
         display: flex;
         flex-direction: row;
@@ -1244,7 +1222,6 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1em;
-        /* line-height: 1.4375em; */
         padding: 0 0 3em ;
         text-align: center;
         color: #F3F3F3;
@@ -1266,11 +1243,6 @@
         padding: .35em;
         margin: 0 1em;
     }
-
-    /* .SocialMedia {
-        width: .8em;
-        margin-bottom: .2em;
-    } */
 
     .facebook {
         width: 1.2em;
@@ -1348,7 +1320,6 @@
         font-size: 1em;
         color: #FFFFFF;
         margin: 1em 0 1.5em 2em;
-        /* padding: 0; */
     }
 
     .navLink {
@@ -1359,7 +1330,6 @@
 
     .carousel-inner {
         padding-top: 48.25%;
-        /* padding-bottom: 20%; */
         display: block;
         content: "";
     }
@@ -1372,7 +1342,6 @@
         transform: translateX(-50%) translateY(-50%);
         width: 50%;
         z-index: 1;
-        /* margin-top: 3em; */
         text-align: right;
     }
 
@@ -1422,10 +1391,6 @@
 	.nameDescriptionContainer {
 		padding: 0 5em;
 	}
-/* 
-	.allDescription {
-		margin-top: 1em;
-	} */
 
 	.classes {     
 		font-family: 'Milonga', cursive;
@@ -1494,7 +1459,6 @@
     
     .pictures {
         width: 15em;
-        /* margin-left: -2em; */
     }
 
     .tutors-description {
@@ -1502,7 +1466,6 @@
         grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
         grid-gap: 3.125em;
         text-align: center;
-        /* margin: 3em; */
     }
 
     .name {
@@ -1583,7 +1546,6 @@
         height:	29.525em;
         left: 14.6375em;
         top: 14.0625em;
-        /* z-index: 1; */
         background: #CDA253;
         padding: 2em 0 4em 0;
     }
@@ -1644,11 +1606,6 @@
         margin: 0 1em;
     }
 
-    /* .SocialMedia {
-        width: .8em;
-        margin-bottom: .2em;
-    } */
-
     .facebook {
         width: 1.2em;
         padding: 0 .2em 0 .1em;
@@ -1689,7 +1646,6 @@
         font-size: 1em;
         color: #FFFFFF;
         margin: 1em 0 1.5em 5em;
-        /* padding: 0; */
     }
 
     .navLink {
@@ -1733,7 +1689,6 @@
         bottom:0;
         left:0;
         right:0;
-        /* box-shadow: inset 0 0 0 125em, rgba(13, 5, 46, 0.11); */
         background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
         background-position: left;
         }
@@ -1818,7 +1773,6 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1.2em;
-        /* line-height: 2em; */
         color: #000000;
     }
 
@@ -1929,7 +1883,6 @@
         font-style: normal;
         font-weight: 500;
         font-size: 1.5em;
-        /* margin-top: .1em; */
         text-transform: uppercase;
         color: #000000;
     }
@@ -1968,7 +1921,6 @@
         background-blend-mode: overlay;
         text-align: center;
         min-height: 55em;
-        /* padding: 5em 0; */
     } 
 
     .contactHead-container {
@@ -2005,7 +1957,6 @@
         height:	32.525em;
         left: 19.4375em;
         top: 18.0625em;
-        /* z-index: 1; */
         background: #CDA253;
         padding: 2em 0 4em 0;
     }
@@ -2118,7 +2069,6 @@
         font-size: 1.7em;
         color: #FFFFFF;
         margin: 1em 0 1.5em 10em;
-        /* padding: 0; */
     }
 
     .navLink {
@@ -2161,7 +2111,6 @@
         bottom:0;
         left:0;
         right:0;
-        /* box-shadow: inset 0 0 0 125em, rgba(13, 5, 46, 0.11); */
         background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
         background-position: left;
         }
@@ -2358,7 +2307,6 @@
         font-style: normal;
         font-weight: 500;
         font-size: 2em;
-        /* margin-top: .1em; */
         text-transform: uppercase;
         color: #000000;
     }
@@ -2397,7 +2345,6 @@
         background-blend-mode: overlay;
         text-align: center;
         min-height: 100em;
-        /* padding: 5em 0; */
     } 
 
     .contactHead-container {
@@ -2433,7 +2380,6 @@
         height:	54.525em;
         left: 35.4375em;
         top: 35.0625em;
-        /* z-index: 1; */
         background: #CDA253;
         padding: 2em 0 4em 0;
     }
