@@ -1,2470 +1,2386 @@
-
-
-@media only screen and (min-width : 320px){
-
-    a {
-        text-decoration: none;
-    }
-      
-    .headerNav {
-          background: #0D052E;
-         
-    }
-
-    .desktopView {
-        display: none;
-    }
-
-    .navLink {
-        background: #CDA253;
-        min-width: 40.7em;
-        min-height: 8.75em;	
-        position: absolute;
-        top: 100%;
-        bottom: 0;
-        left: -120%;
-        right: 0;
-        z-index: 10;
-    }
-
-    .nav-item {
-        margin-left: 29em;
-    }
-
-    nav .navbar-nav li a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        color: #FFFFFF;
-    }
-
-                /* CAROUSEL SECTION */
-    
-    .carousel-inner {
-        display: inline-block;
-        position: relative;
-    }
-
-    .carousel-inner {
-        padding-top: 43.25%;
-        display: block;
-        content: "";
-    }
-
-    .carousel-item {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    
-        background: no-repeat right right scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: left;
-    }
-    
-    .carousel-item:after {
-        content:"";
-        display:block;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
-        background-position: left;
-        }
-    
-    .carousel-img {
-        width: 100%;
-    }
-    
-    .caption {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        left: 30%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        margin-top: 3em;
-        text-align: right;
-    }
-
-    .caption h1 {
-        margin-bottom: 1.4375em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.2em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
-
-    .caption button {
-        margin: 0 3.5em 8em 0;
-        padding: .2em 1em;
-        font-size: .8em;
-        background: #CDA253;
-    }  
-
-                /* school description */
-     
-    .school-description {
-
-        background: #F3F3F3;
-            
-    }
-
-    .description-text {
-        margin: 0 3em;
-        padding: 2em 0;
-    }
-
-    .violin-img.descritionMobile{
-				display: none;
-				
-		}
-		
-		.SchoolDescriptionDesktopView P{
-			display: none;
-		}
-
-    .school-description {
-        
-        background:url(./imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
-        background-size: cover;
-        background-position: cover;
-        background-blend-mode: overlay;
-    } 
-
-    .school-name {
-        font-family: 'Milonga', cursive;
-        text-align: center;
-        font-size: 1em;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1.8em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-    }
-      
-    .about-school {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 2em;
-        color: #000000;
-    }
-
-                /* Music-classes */
-
-    .training-classes {
-
-        text-align: center;
-        padding-top: 3em;
-    }	
-        
-    .classes {
-        
-        font-family: 'Milonga', cursive;
-        font-size: 1.5em;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        
-    }
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .6em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
-        
-    }
-        
-    .instrument {
-        width: 5.5067em;
-        margin-top: 1.5em;	
-        
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 9.625em;	
-        height: 9.625em;
-        margin: 0 0 0 1em;
-    }
-        
-    .musical-text {
-        margin: 0 4em;
-    }
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 2em;
-        text-align: center;
-        padding: 0 1em;
-    }
-
-                    /* Tutors-Section */
-
-    .Tutors-section {
-
-        background: #F5F4F4;
-        padding: 2em 1em 1em 1em;
-    }
-
-    .meetTutors {
-        text-align: center;
-    }
-
-    .meetTutors h6 {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        margin-top: 1em;
-    }
-
-    .pictures {
-        width: 15em;
-        margin-left: -2em;
-    }
-
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-        margin: 3em;
-    }
-    
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1em;
-        color: #000000;
-    } 
-    
-    .fullBio-pageLink {
-        text-align: center;	
-    }
-    
-    .bio {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        letter-spacing: 0.11em;
-        text-decoration: none;
-    }
-
-                 /* CONTACT SECTION */
-  
-    .contact {
-        min-height: 100%;
-        background:url(./imgs/mic.png);
-        background-size:contain;
-        box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
-        text-align: center;
-
-    } 
-
-    .contact-heading {
-  
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        letter-spacing: 0.11em;
-        color: #FFFFFF;
-        padding-top: .8em;
-    }
-    
-    .music-love{
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: .8em;
-        padding-top: .8em;
-        color: #000000;
-        
-    }
-    
-    .location {
-        position: absolute;
-        width:	25.1875em;
-        height:	26.125em;
-        left: 18.4375em;
-        top: 210.0625em;
-        z-index: 1;
-        background: #CDA253;
-        padding: 4em 0 0 0;
-    }
-    
-    .location-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .address-heading {
-    
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size:	1.2em;
-        margin: .5em 0 .2em .2em;
-        color: #F3F3F3;
-    }
-
-    .address {
-  
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        padding: 0 0 3em ;
-        text-align: center;
-        color: #F3F3F3;
-    }
-
-
-                         /* FOOTER */
-    footer {
-        text-align: center;
-        background: #F3F3F3;
-    }
-
-    .handlesContainer {
-        margin: 2em 0;
-    }
-
-    .mediaIcon {
-			background: #CDA253;
-			border-radius: 50%;
-			padding: .3em;
-			margin: 0 1em;
-	}
-
-	.facebook {
-			width: .8em;
-	}
-
-	.SocialMedia{
-			width: 1em;
-			padding: 0 0 0 .2em;
-	}
-
-
-    .rights-reserve {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .6em;
-        line-height: 1.0625em;
-        color: #000000;
-    }
-
-     .copyright {
-        font-size: 1em;
-    }
-
-
-                            
-                        /* TUTORS_IMG SECTION */
-    .allTutors {
-        background: #FFFFFF;
-    }
-
-}
-
-@media only screen and (min-width : 375px){
-
-								/* NavLink */
-		.navLink {
-			background: #CDA253;
-			min-width: 40.7em;
-			min-height: 8.75em;	
-			position: absolute;
-			top: 100%;
-			bottom: 0;
-			left: -120%;
-			right: 0;
-			z-index: 10;
-	}
-
-	.nav-item {
-			margin:.5em 0 0 27em;
-	}
-
-	nav .navbar-nav li a {
-			font-family: 'Poppins';
-			font-style: normal;
-			font-weight: normal;
-			font-size: .8em;
-			color: #FFFFFF;
-			text-align: center;
-
-	}
-
-							/* schoolDescription */
-
-	.school-name {
-		font-family: 'Milonga', cursive;
-		text-align: center;
-		font-size: 1.5em;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 1.8em;
-		letter-spacing: 0.11em;
-		color: #CDA253;
-	}
-										/* classes */
-
-	.instrument-container {
-		text-align: center;
-		justify-content: center;
-		border:  0.125em solid #CCCCCC;
-		border-radius: 50%;
-		width: 9.625em;	
-		height: 9.625em;
-		margin: 0 0 0 2.2em;
-	}
-
-							/* FOOTER */
-	footer {
-			text-align: center;
-			background: #F3F3F3;
-	}
-
-	.handlesContainer {
-			margin: 2em 0;
-	}
-
-	.mediaIcon {
-			background: #CDA253;
-			border-radius: 50%;
-			padding: .3em;
-			margin: 0 1em;
-	}
-
-	.facebook {
-			width: .8em;
-	}
-
-	.SocialMedia{
-			width: 1em;
-			padding: 0 0 0 .2em;
-	}
-
-	.rights-reserve {
-			font-family: 'Krub', sans-serif;
-			font-style: normal;
-			font-weight: normal;
-			font-size: .6em;
-			line-height: 1.0625em;
-			color: #000000;
-	}
-
-	.copyright {
-			font-size: 1em;
-	}
-
-}
-
-@media only screen and (min-width: 425px){
-
-	.navLink {
-
-			min-width: 10em;
-			min-height: 11em;	
-			position: absolute;
-			right: -5%;
-			
-	}
-
-	.nav-item {
-
-			margin-left: 30em;
-	}
-
-	nav .navbar-nav li a {
-			margin-top: .5em;
-			font-size: 1em;
-	}
-
-	.caption {
-			position: absolute;
-			top: 50%;
-			right: 30%;
-			left: 30%;
-			transform: translateX(-50%) translateY(-50%);
-			width: 50%;
-			z-index: 1;
-			text-align: right;
-			margin-top: 3em;
-			
-	}
-
-		.caption h1 {
-			margin-bottom: 1em;
-			font-family: 'Norican';
-			font-style: normal;
-			font-weight: normal;
-			font-size: 1.5em;
-			text-align: center;
-			letter-spacing: 0.06em;
-			color: #FFFFFF;
-	}
-
-	.caption button {
-		margin: 0 4.7em 8em 0;
-		padding: .2em 1em;
-		font-size: .8em;
-		background: #CDA253;
-	}  
-
-	.school-name {
-		font-family: 'Milonga', cursive;
-		text-align: center;
-		font-size: 1.5em;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 1.8em;
-		letter-spacing: 0.11em;
-		color: #CDA253;
-	}
-
-		.training-niche {
-					
-			font-size: .8em;   
-	}
-
-	.instrument-container {
-
-			margin-left: 4.5em;
-	}
-
-	.instrument-text {
-
-			font-size: 1em;
-
-	}
-									/* footer */
-
-		.facebook {
-			width: .7em;
-	}
-
-	
-}
-
-
-
-
-@media only screen and (min-width: 481px){
-    
-    .navLink {
-
-        min-width: 10em;
-        min-height: 11em;	
-        position: absolute;
-        right: -5%;
-        
-    }
-
-    .nav-item {
-
-        margin-left: 32em;
-    }
-
-    nav .navbar-nav li a {
-        margin-top: 1em;
-        font-size: 1em;
-    }
-
-                 /* CAROUSEL SECTION */
-
-    .caption {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        left: 40%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        text-align: right;
-        margin-top: 3.5em;
-        
-    }
-
-    .caption h1 {
-        margin-bottom: 1em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
-
-                    /* school description */
-    
-    .school-name {
-       
-        font-size: 1.5em;
-        
-    }
-
-    .about-school {
-
-        font-size: .9em;
-        line-height: 2em;
-       
-    }
-
-                /* Music-classes */
-
-    .classes {
-    
-        font-size: 1.8em;
-        
-    } 
-
-    .training-niche {
-        
-        font-size: .8em;   
-    }
-    
-    .instrument-container {
-    
-        margin-left: 3em;
-    }
-
-    .instrument-text {
-
-        font-size: .8em;
-    
-    }
-
-                 /* Tutors-Section */
-
-    .meetTutors h6 {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        margin-top: 1em;
-    }
-
-    .rights-reserve {
-        font-size: 0.9em;
-    
-    }
-
-    .copyright {
-        font-size: 1.2em;
-    }
-}
-
-
-@media only screen and (min-width: 641px) {
-    
-    .navLink {
-        background: #CDA253;
-        min-width: 20em;
-        min-height: 11.5em;	
-        position: absolute;
-        top: 100%;
-        bottom: 0;
-        left: -120%;
-        right: -5;
-        z-index: 10;
-        
-    }
-
-                    /* carousel section */
-
-    .nav-item {
-
-        margin-left: 38em;
-    }
-
-    nav .navbar-nav li a {
-        margin-top: 1em;
-        font-size: 1em;
-    }
-
-    .caption {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        left: 30%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        margin-top: 3em;
-        text-align: right;
-    }
-
-    .caption h1 {
-        margin-top: .8em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
-
-    .caption button {
-        margin: 0 4em 8em 0;
-        padding: .2em 1em;
-        font-size: 1em;
-        background: #CDA253;
-    }  
-
-                     /* Music-classes */
-
-    .training-classes {
-
-        text-align: center;
-        padding-top: 3em;
-    }	
-        
-    .classes {
-        
-        font-family: 'Milonga', cursive;
-        font-size: 1.8em;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        
-    }
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
-        
-    }
-        
-     .instrument {
-        width: 3em;
-        margin-top: .8em;
-
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 5em;	
-        height: 5em;
-        margin: 0 0 0 2em;
-    }
-
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .6em;
-        line-height: 2em;
-        text-align: center;
-    
-    }
-    
-    .musical-text {
-        margin: 0 2em;
-    }
-
-                    /* Tutors Section */
-    
-    .pictures {
-        width: 10em;
-    }
-
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-    }
-
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1em;
-        margin-right: 1em;
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: .7em;
-        color: #000000;
-        margin-right: 1em;
-    } 
-
-}
-
-@media only screen and (min-width : 961px){
-    .mobileView {
-        display: block;
-    }
-
-    .desktopView {
-        display: none;
-    }
-
-    a {
-        text-decoration: none;
-    }
-      
-    .headerNav {
-          background: #0D052E;
-         
-    }
-
-    .container {
-        max-width: 100%;
-    }
-		
-    .navLink {
-        background: #CDA253;
-        min-width: 20.8em;
-        min-height: 20.8em;	
-        position: absolute;
-        top: 100%;
-        bottom: 0;
-        left: -120%;
-		right: -2%;
-		z-index: 10;
-	}
-
-    nav .navbar-nav li a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-		font-size: 2em;
-		text-align: center;
-        color: #FFFFFF;
-        margin-left: 8em;
-		}
-		
-		 						/* CAROUSEL SECTION */
-    
-	.carousel-inner {
-		display: inline-block;
-		position: relative;
-	}
-
-	.carousel-inner {
-			padding-top: 43.25%;
-			display: block;
-			content: "";
-	}
-
-	.carousel-item {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			left: 0;
-	
-			background: no-repeat right right scroll;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-			background-position: center;
-	}
-	
-	.carousel-item:after {
-			content:"";
-			display:block;
-			position:absolute;
-			top:0;
-			bottom:0;
-			left:0;
-			right:0;
-			background: linear-gradient(to right,  #0D052E 30.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
-			}
-	
-	.carousel-img {
-			width: 100%;
-	}
-	
-	.caption {
-			position: absolute;
-			top: 50%;
-			right: 30%;
-			left: 30%;
-			transform: translateX(-50%) translateY(-50%);
-			width: 50%;
-			z-index: 1;
-			margin-top: 3em;
-			text-align: right;
-	}
-
-	.caption h1 {
-			margin-bottom: 1.4375em;
-			font-family: 'Norican';
-			font-style: normal;
-			font-weight: normal;
-			font-size: 3em;
-			text-align: center;
-			letter-spacing: 0.06em;
-			color: #FFFFFF;
-	}
-
-	.caption button {
-			margin: 0 6em 8em 0;
-			padding: .2em 1em;
-			font-size: 1.3em;
-			background: #CDA253;
-	} 
-	
-	                    /* school description */
-     
-	.school-description {
-
-		background: #F3F3F3;
-				
-    }
-
-    .description-text {
-		margin: 0 3em;
-		padding: 2em 3em;
-    }
-
-    .descritionMobile {
-		display: none;
-    }
-
-    .school-description {
-		
-		background:url(./imgs/violin.png), linear-gradient(rgba(243,243,243),rgba(243,243,243));
-		background-size: contain;
-		background-position: cover;
-		background-blend-mode: overlay;
-    }    
-
-    .school-name {
-		font-family: 'Milonga', cursive;
-		text-align: center;
-		font-size: 1.8em;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 1.8em;
-		letter-spacing: 0.11em;
-		color: #CDA253;
-    }
-	
-    .about-school {
-		font-family: 'Krub', sans-serif;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 1em;
-		line-height: 2em;
-		color: #000000;
-    }
-
-                     /* Music-classes */
-
-    .training-classes {
-
-        text-align: center;
-        padding-top: 3em;
-    }	
-        
-    .classes {
-        
-        font-family: 'Milonga', cursive;
-        font-size: 1.8em;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        
-    }
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
-        
-    }
-        
-    .instrument {
-        width: 5.5067em;
-        margin-top: 1.5em;	
-        
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 9.625em;	
-        height: 9.625em;
-        margin: 0 0 0 3em;
-    }
-        
-    .musical-text {
-        margin: 0 4em;
-    }
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 2em;
-        text-align: center;
-        padding: 0 1em;
-    }
-
-    /* Tutors-Section */
-
-    .Tutors-section {
-
-        background: #F5F4F4;
-        padding: 2em 1em 1em 1em;
-    }
-
-    .meetTutors {
-        text-align: center;
-    }
-
-    .meetTutors h6 {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2em;
-        margin-top: 1em;
-    }
-
-    .pictures {
-        width: 15em;
-        margin-left: -2em;
-    }
-
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-        margin: 3em;
-    }
-    
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.5em;
-        /* margin-top: .1em; */
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1em;
-        color: #000000;
-    } 
-    
-    .fullBio-pageLink {
-        text-align: center;	
-        padding-bottom: 2em;
-    }
-    
-    .bio {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        letter-spacing: 0.11em;
-        text-decoration: none;
-       
-    }
-
-                     /* CONTACT SECTION */
-  
-    .contact {
-        min-height: 100%;
-        background:url(./imgs/mic.png);
-        background-size:contain;
-        box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
-        text-align: center;
-
-    } 
-
-    .contact-heading {
-  
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.5em;
-        letter-spacing: 0.11em;
-        color: #FFFFFF;
-        padding-top: .8em;
-    }
-    
-    .music-love{
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.5em;
-        padding-top: .8em;
-        color: #000000;
-        
-    }
-    
-    .location-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .address-heading {
-    
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size:	1.5em;
-        margin: .5em 0 .2em .2em;
-        color: #F3F3F3;
-    }
-
-    .address {
-  
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        padding: 0 0 3em ;
-        text-align: center;
-        color: #F3F3F3;
-    }
-
-                         /* FOOTER */
-    footer {
-        text-align: center;
-        background: #F3F3F3;
-    }
-
-    .handlesContainer {
-        margin: 2em 0;
-    }
-
-    .mediaIcon {
-        background: #CDA253;
-        border-radius: 50%;
-        padding: .35em;
-        margin: 0 1em;
-    }
-
-    .facebook {
-        width: 1.2em;
-        padding: 0 .2em 0 .1em;
-    }
-
-    .SocialMedia{
-        width: 1.2em;
-        padding: 0 0 0 .2em;
-    }
-
-    .rights-reserve {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 1.0625em;
-        color: #000000;
-    }
-
-     .copyright {
-        font-size: 1em;
-    }
-
-
-                            
-                        /* TUTORS_IMG SECTION */
-    .allTutors {
-        background: #FFFFFF;
-    }
-
-}
-
-@media only screen  and (min-width : 1024px) {
-
-    .desktopView {
-        display: block;
-        width: 100%;
-    }
-
-    .mobileView {
-        display: none;
-    }
-
-    .headerNav {
-        position: fixed;
-        top: 0;
-        bottom: 85%;
-        left: 0%;
-        right: 0;
-        z-index: 10;
-       
+@media only screen and (min-width: 320px) {
+  a {
+    text-decoration: none;
   }
 
-    .navLink {
-        background: none;
-        min-width: 0;
-        min-height: 0;	
-        position: fixed;
-        top: 0;
-        bottom: 80%;
-        left: 0%;
-        right: 0;
-        z-index: 10;
-    }
+  .headerNav {
+    background: #0d052e;
+  }
 
-    .nav-item {
-        margin-left: 0;
-    }
+  .desktopView {
+    display: none;
+  }
 
-    nav .navbar-nav li a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        color: #FFFFFF;
-        margin: 1em 0 1.5em 2em;
-    }
+  .navLink {
+    background: #cda253;
+    min-width: 40.7em;
+    min-height: 8.75em;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: -120%;
+    right: 0;
+    z-index: 10;
+  }
 
-    .navLink {
-        margin-left: 20em;
-    }
+  .nav-item {
+    margin: .5em 0 0 23em;
+  }
 
-                 /* CAROUSEL SECTION */
+  nav .navbar-nav li a {
+		font-family: "Milonga", cursive;
+    font-style: normal;
+		font-weight: normal;
+		font-size: 0.8em;
+		text-align: center;
+    color: #ffffff;
+  }
 
-    .carousel-inner {
-        padding-top: 48.25%;
-        display: block;
-        content: "";
-    }
+  /* CAROUSEL SECTION */
 
-    .caption {
-        position: absolute;
-        top: 60%;
-        right: 30%;
-        left: 25%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        text-align: right;
-    }
+  .carousel-inner {
+    display: inline-block;
+    position: relative;
+  }
 
-    .caption h1 {
-        margin-bottom: .6em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3.5em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
+  .carousel-inner {
+    padding-top: 43.25%;
+    display: block;
+    content: "";
+  }
 
-    .caption button {
-        margin: 0 8em 10em 0;
-        padding: .2em .8em;
-        font-size: 1.5em;
-        background: #CDA253;
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
-		}
-		
-		
-                    /* school description */
-	
-    .SchoolDescriptionDesktopView P{
-        display: block;
-		background: #F3F3F3;
-    }
+    background: no-repeat right right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+  }
 
-    .descritionDesktop {
-		display: flex;
-		flex-direction: row;
-		padding: 5em;
+  .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to right,
+      #0d052e 5.23%,
+      rgba(13, 5, 46, 0.9) 38.97%,
+      rgba(13, 5, 46, 0.11) 67.73%,
+      rgba(13, 5, 46, 0) 92.44%
+    );
+    background-position: left;
+  }
 
-	}
+  .carousel-img {
+    width: 100%;
+  }
 
-	 .school-description{
-		display: none;
-	}
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    margin-top: 3em;
+    text-align: right;
+  }
 
-	.violin-img {
-		height: 30.8125em;
-		width: 20.0625em;
-	}
+  .caption h1 {
+    margin-bottom: 1.4375em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
 
-	.nameDescriptionContainer {
-		padding: 0 5em;
-	}
+  .caption button {
+    margin: 0 3.5em 8em 0;
+    padding: 0.2em 1em;
+    font-size: 0.8em;
+    background: #cda253;
+  }
 
-	.classes {     
-		font-family: 'Milonga', cursive;
-		font-size: 2em;
-		font-style: normal;
-		font-weight: 400;
-		letter-spacing: 0.11em;
-		color: #CDA253;
-		
-    }
-    
-                         /* Music-classes */
+  /* school description */
 
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
-        
-    }
-        
-     .instrument {
-        width: 4em;
-        margin-top: 1.2em;
+  .school-description {
+    background: #f3f3f3;
+  }
 
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 7em;	
-        height: 7em;
-        margin: 0 0 0 2em;
-    }
+  .description-text {
+    margin: 0 3em;
+    padding: 2em 0;
+  }
 
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 2em;
-        text-align: center;
-    
-    }
-    
-    .musical-text {
-        margin: 0 2em;
-    }
+  .violin-img.descritionMobile {
+    display: none;
+  }
 
-                     /* Tutors Section */
-    
-    .pictures {
-        width: 15em;
-    }
+  .SchoolDescriptionDesktopView P {
+    display: none;
+  }
 
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-    }
+  .school-description {
+    background: url(./imgs/violin.png),
+      linear-gradient(rgba(243, 243, 243), rgba(243, 243, 243));
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+  }
 
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.2em;
-        margin-right: 1em;
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1em;
-        color: #000000;
-        margin-right: 1em;
-    } 
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-    .bio {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2em;
-        letter-spacing: 0.11em;
-        text-decoration: none;
-    }
+  .about-school {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+    color: #000000;
+  }
 
-                     /* CONTACT SECTION */
-  
-    .contact {
+  /* Music-classes */
 
-        position: relative;
-        background:url(./imgs/group_pics.png);
-        box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
-        background-size: cover;
-        background-position: cover;
-        background-blend-mode: overlay;
-        text-align: center;
-        min-height: 46em;
+  .training-classes {
+    text-align: center;
+    padding-top: 3em;
+  }
 
-    } 
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-    .contactHead-container {
-        margin-top: 1em;
-    } 
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
 
-    .contact-heading {
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
+  }
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        padding-top: 2em;
-        
+  .instrument {
+    width: 5.5067em;
+    margin-top: 1.5em;
+  }
 
-    }
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 9.625em;
+    height: 9.625em;
+    margin: 0 0 0 1em;
+  }
 
-    .music-love{
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.5em;
-        line-height: 1em;
-        color: #F5F4F4;
-        margin-bottom: 2em;
+  .musical-text {
+    margin: 0 4em;
+  }
 
-    }
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+    text-align: center;
+    padding: 0 1em;
+  }
 
-    .location {
-        position: absolute;
-        width:	24.5875em;
-        height:	29.525em;
-        left: 14.6375em;
-        top: 14.0625em;
-        background: #CDA253;
-        padding: 2em 0 4em 0;
-    }
+  /* Tutors-Section */
 
-    .location-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+  .Tutors-section {
+    background: #f5f4f4;
+    padding: 2em 1em 1em 1em;
+  }
 
-    .address-heading {
+  .meetTutors {
+    text-align: center;
+  }
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size:	1.375em;
-        margin: .2em 0 .2em .2em;
-        color: #F3F3F3;
-    }
+  .meetTutors h6 {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: 1em;
+  }
 
-    .address {
+  .pictures {
+    width: 15em;
+    margin-left: -2em;
+  }
 
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.125em;
-        line-height: 1.4375em;
-        padding: 0 0 3em ;
-        text-align: center;
-        color: #F3F3F3;
-    } 
-    
-    .rockMic-Img {
-        position: absolute;
-        width: 20.0625em;
-        height: 25.125em;
-        left: 33.5em;
-        top: 16.75em;
-        filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15)) drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
-        z-index: 5;
-    }
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+    margin: 3em;
+  }
 
-                    /* FOOTER */
-    footer {
-        text-align: center;
-        background: #F3F3F3;
-    }
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #000000;
+  }
 
-    .handlesContainer {
-        margin: 2em 0;
-    }
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    color: #000000;
+  }
 
-    .mediaIcon {
-        background: #CDA253;
-        border-radius: 50%;
-        padding: .35em;
-        margin: 0 1em;
-    }
+  .fullBio-pageLink {
+    text-align: center;
+  }
 
-    .facebook {
-        width: 1.2em;
-        padding: 0 .2em 0 .1em;
-    }
+  .bio {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+  }
 
-    .SocialMedia{
-        width: 1.2em;
-        padding: 0 0 0 .2em;
-    }
+  /* CONTACT SECTION */
 
-    .rights-reserve {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 1.0625em;
-        color: #000000;
-    }
+  .contact {
+    min-height: 100%;
+    background: url(./imgs/mic.png);
+    background-size: contain;
+    box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
+    text-align: center;
+  }
 
-    .copyright {
-        font-size: 1em;
-    }
+  .contact-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.11em;
+    color: #ffffff;
+    padding-top: 0.8em;
+  }
 
+  .music-love {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding-top: 0.8em;
+    color: #000000;
+  }
+
+  .location {
+    position: absolute;
+    width: 25.1875em;
+    height: 26.125em;
+    left: 18.4375em;
+    top: 210.0625em;
+    z-index: 1;
+    background: #cda253;
+    padding: 4em 0 0 0;
+  }
+
+  .location-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .address-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 0.5em 0 0.2em 0.2em;
+    color: #f3f3f3;
+  }
+
+  .address {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0 0 3em;
+    text-align: center;
+    color: #f3f3f3;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
+
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 0.3em;
+    margin: 0 1em;
+  }
+
+  .facebook {
+    width: 0.8em;
+  }
+
+  .SocialMedia {
+    width: 1em;
+    padding: 0 0 0 0.2em;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+
+  /* TUTORS_IMG SECTION */
+  .allTutors {
+    background: #ffffff;
+  }
 }
 
-@media only screen   and (min-width: 1440px){ 
-
-    .headerNav {
-        background: #0D052E;
-        position: fixed;
-
-    }
-
-    nav .navbar-nav li a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        color: #FFFFFF;
-        margin: 1em 0 1.5em 5em;
-    }
-
-    .navLink {
-        margin-left: 25em;
-    }
-
-   
-                 /* CAROUSEL SECTION */
-        
-    .carousel-inner {
-        display: inline-block;
-        position: relative;
-    }
-
-    .carousel-inner {
-        padding-top: 43.25%;
-        display: block;
-        content: "";
-    }
-
-    .carousel-item {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-
-        background: no-repeat right right scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: left;
-    }
-
-    .carousel-item:after {
-        content:"";
-        display:block;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
-        background-position: left;
-        }
-
-    .carousel-img {
-        width: 100%;
-    }
-
-    .caption {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        left: 30%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        margin-top: 3em;
-        text-align: right;
-    }
-
-    .caption h1 {
-        margin-bottom: 1.4375em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
-
-    .caption button {
-        margin: 0 8em 8em 0;
-        padding: .2em 1em;
-        font-size: 2em;
-        background: #CDA253;
-    }  
-
-                     /* school description */
+@media only screen and (min-width: 375px) {
+	/* NavLink */
 	
-	.SchoolDescriptionDesktopView {
-		background: #F3F3F3;
+	a {
+		text-decoration: none;
 	}
+
+  .navLink {
+    background: #cda253;
+    min-width: 40.7em;
+    min-height: 8.75em;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: -120%;
+    right: 0;
+    z-index: 10;
+  }
+
+  .nav-item {
+    margin: 0.5em 0 0 27em;
+  }
+
+  nav .navbar-nav li a {
+    font-family: "Milonga", cursive;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  /* schoolDescription */
+
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+  /* classes */
+
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 9.625em;
+    height: 9.625em;
+    margin: 0 0 0 2.2em;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
+
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 0.3em;
+    margin: 0 1em;
+  }
+
+  .facebook {
+    width: 0.8em;
+  }
+
+  .SocialMedia {
+    width: 1em;
+    padding: 0 0 0 0.2em;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+
+	a {
+		text-decoration: none;
+	}
+
+  .navLink {
+    min-width: 10em;
+    min-height: 11em;
+    position: absolute;
+    right: -5%;
+  }
+
+  .nav-item {
+    margin-left: 30em;
+  }
+
+  nav .navbar-nav li a {
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    text-align: right;
+    margin-top: 3em;
+  }
+
+  .caption h1 {
+    margin-bottom: 1em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  .caption button {
+    margin: 0 4.7em 8em 0;
+    padding: 0.2em 1em;
+    font-size: 0.8em;
+    background: #cda253;
+  }
+
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  .training-niche {
+    font-size: 0.8em;
+  }
+
+  .instrument-container {
+    margin-left: 4.5em;
+  }
+
+  .instrument-text {
+    font-size: 1em;
+  }
+  /* footer */
+
+  .facebook {
+    width: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+
+	a {
+		text-decoration: none;
+	}
+
+  .navLink {
+    min-width: 10em;
+    min-height: 11em;
+    position: absolute;
+    right: -5%;
+  }
+
+  .nav-item {
+    margin-left: 32em;
+  }
+
+  nav .navbar-nav li a {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  /* CAROUSEL SECTION */
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    text-align: right;
+    margin-top: 3.5em;
+  }
+
+  .caption h1 {
+    margin-bottom: 1em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  /* school description */
+
+  .school-name {
+    font-size: 1.5em;
+  }
+
+  .about-school {
+    font-size: 0.9em;
+    line-height: 2em;
+  }
+
+  /* Music-classes */
+
+  .classes {
+    font-size: 1.8em;
+  }
+
+  .training-niche {
+    font-size: 0.8em;
+  }
+
+  .instrument-container {
+    margin-left: 3em;
+  }
+
+  .instrument-text {
+    font-size: 0.8em;
+  }
+
+  /* Tutors-Section */
+
+  .meetTutors h6 {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .rights-reserve {
+    font-size: 0.9em;
+  }
+
+  .copyright {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+
+	a {
+		text-decoration: none;
+	}
+
+  .navLink {
+    background: #cda253;
+    min-width: 20em;
+    min-height: 11.5em;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: -120%;
+    right: -5;
+    z-index: 10;
+  }
+
+  /* carousel section */
+
+  .nav-item {
+    margin-left: 38em;
+  }
+
+  nav .navbar-nav li a {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    margin-top: 3em;
+    text-align: right;
+  }
+
+  .caption h1 {
+    margin-top: 0.8em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  .caption button {
+    margin: 0 4em 8em 0;
+    padding: 0.2em 1em;
+    font-size: 1em;
+    background: #cda253;
+  }
+
+  /* Music-classes */
+
+  .training-classes {
+    text-align: center;
+    padding-top: 3em;
+  }
+
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
+
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
+  }
+
+  .instrument {
+    width: 3em;
+    margin-top: 0.8em;
+  }
+
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    margin: 0 0 0 2em;
+  }
+
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .musical-text {
+    margin: 0 2em;
+  }
+
+  /* Tutors Section */
+
+  .pictures {
+    width: 10em;
+  }
+
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+  }
+
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 1em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #000000;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+
+	a {
+		text-decoration: none;
+	}
+
+  .mobileView {
+    display: block;
+  }
+
+  .desktopView {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .headerNav {
+    background: #0d052e;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .navLink {
+    background: #cda253;
+    min-width: 20.8em;
+    min-height: 20.8em;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: -120%;
+    right: -2%;
+    z-index: 10;
+  }
+
+  nav .navbar-nav li a {
+    font-family: "Milonga", cursive;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 8em;
+  }
+
+  /* CAROUSEL SECTION */
+
+  .carousel-inner {
+    display: inline-block;
+    position: relative;
+  }
+
+  .carousel-inner {
+    padding-top: 43.25%;
+    display: block;
+    content: "";
+  }
+
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: no-repeat right right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to right,
+      #0d052e 30.23%,
+      rgba(13, 5, 46, 0.9) 38.97%,
+      rgba(13, 5, 46, 0.11) 67.73%,
+      rgba(13, 5, 46, 0) 92.44%
+    );
+  }
+
+  .carousel-img {
+    width: 100%;
+  }
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    margin-top: 3em;
+    text-align: right;
+  }
+
+  .caption h1 {
+    margin-bottom: 1.4375em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  .caption button {
+    margin: 0 6em 8em 0;
+    padding: 0.2em 1em;
+    font-size: 1.3em;
+    background: #cda253;
+  }
+
+  /* school description */
+
+  .school-description {
+    background: #f3f3f3;
+  }
+
+  .description-text {
+    margin: 0 3em;
+    padding: 2em 3em;
+  }
+
+  .descritionMobile {
+    display: none;
+  }
+
+  .school-description {
+    background: url(./imgs/violin.png),
+      linear-gradient(rgba(243, 243, 243), rgba(243, 243, 243));
+    background-size: contain;
+    background-position: cover;
+    background-blend-mode: overlay;
+  }
+
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  .about-school {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 2em;
+    color: #000000;
+  }
+
+  /* Music-classes */
+
+  .training-classes {
+    text-align: center;
+    padding-top: 3em;
+  }
+
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
+
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
+  }
+
+  .instrument {
+    width: 5.5067em;
+    margin-top: 1.5em;
+  }
+
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 9.625em;
+    height: 9.625em;
+    margin: 0 0 0 3em;
+  }
+
+  .musical-text {
+    margin: 0 4em;
+  }
+
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+    text-align: center;
+    padding: 0 1em;
+  }
+
+  /* Tutors-Section */
+
+  .Tutors-section {
+    background: #f5f4f4;
+    padding: 2em 1em 1em 1em;
+  }
+
+  .meetTutors {
+    text-align: center;
+  }
+
+  .meetTutors h6 {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .pictures {
+    width: 15em;
+    margin-left: -2em;
+  }
+
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+    margin: 3em;
+  }
+
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    /* margin-top: .1em; */
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    color: #000000;
+  }
+
+  .fullBio-pageLink {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .bio {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact {
+    min-height: 100%;
+    background: url(./imgs/mic.png);
+    background-size: contain;
+    box-shadow: inset 0 0 0 100em rgba(205, 162, 83, 0.92);
+    text-align: center;
+  }
+
+  .contact-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5em;
+    letter-spacing: 0.11em;
+    color: #ffffff;
+    padding-top: 0.8em;
+  }
+
+  .music-love {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-top: 0.8em;
+    color: #000000;
+  }
+
+  .location-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .address-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin: 0.5em 0 0.2em 0.2em;
+    color: #f3f3f3;
+  }
+
+  .address {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 0 0 3em;
+    text-align: center;
+    color: #f3f3f3;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
+
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 0.35em;
+    margin: 0 1em;
+  }
+
+  .facebook {
+    width: 1.2em;
+    padding: 0 0.2em 0 0.1em;
+  }
+
+  .SocialMedia {
+    width: 1.2em;
+    padding: 0 0 0 0.2em;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+
+  /* TUTORS_IMG SECTION */
+  .allTutors {
+    background: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+	a {
+		text-decoration: none;
+	}
+
+  .desktopView {
+    display: block;
+    width: 100%;
+  }
+
+  .mobileView {
+    display: none;
+  }
+
+  .headerNav {
+    position: fixed;
+    top: 0;
+    bottom: 85%;
+    left: 0%;
+    right: 0;
+    z-index: 10;
+  }
+
+  .navLink {
+    background: none;
+    min-width: 0;
+    min-height: 0;
+    position: fixed;
+    top: 0;
+    bottom: 80%;
+    left: 0%;
+    right: 0;
+    z-index: 10;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  nav .navbar-nav li a {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 1em 0 1.5em 2em;
+  }
+
+  .navLink {
+    margin-left: 20em;
+  }
+
+  /* CAROUSEL SECTION */
+
+  .carousel-inner {
+    padding-top: 48.25%;
+    display: block;
+    content: "";
+  }
+
+  .caption {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    text-align: right;
+  }
+
+  .caption h1 {
+    margin-bottom: 0.6em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  .caption button {
+    margin: 0 8em 10em 0;
+    padding: 0.2em 0.8em;
+    font-size: 1.5em;
+    background: #cda253;
+  }
+
+  /* school description */
+
+  .SchoolDescriptionDesktopView P {
+    display: block;
+    background: #f3f3f3;
+  }
 
   .descritionDesktop {
-		display: flex;
-		flex-direction: row;
-		padding: 10em;
+    display: flex;
+    flex-direction: row;
+    padding: 5em;
+  }
 
+  .school-description {
+    display: none;
+  }
+
+  .violin-img {
+    height: 30.8125em;
+    width: 20.0625em;
+  }
+
+  .nameDescriptionContainer {
+    padding: 0 5em;
+  }
+
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
+
+  /* Music-classes */
+
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
+
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
+  }
+
+  .instrument {
+    width: 4em;
+    margin-top: 1.2em;
+  }
+
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    margin: 0 0 0 2em;
+  }
+
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .musical-text {
+    margin: 0 2em;
+  }
+
+  /* Tutors Section */
+
+  .pictures {
+    width: 15em;
+  }
+
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+  }
+
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-right: 1em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    color: #000000;
+    margin-right: 1em;
+  }
+
+  .bio {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact {
+    position: relative;
+    background: url(./imgs/group_pics.png);
+    box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 46em;
+  }
+
+  .contactHead-container {
+    margin-top: 1em;
+  }
+
+  .contact-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+    padding-top: 2em;
+  }
+
+  .music-love {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #f5f4f4;
+    margin-bottom: 2em;
+  }
+
+  .location {
+    position: absolute;
+    width: 24.5875em;
+    height: 29.525em;
+    left: 14.6375em;
+    top: 14.0625em;
+    background: #cda253;
+    padding: 2em 0 4em 0;
+  }
+
+  .location-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .address-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375em;
+    margin: 0.2em 0 0.2em 0.2em;
+    color: #f3f3f3;
+  }
+
+  .address {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125em;
+    line-height: 1.4375em;
+    padding: 0 0 3em;
+    text-align: center;
+    color: #f3f3f3;
+  }
+
+  .rockMic-Img {
+    position: absolute;
+    width: 20.0625em;
+    height: 25.125em;
+    left: 33.5em;
+    top: 16.75em;
+    filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15))
+      drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
+    z-index: 5;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
+
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 0.35em;
+    margin: 0 1em;
+  }
+
+  .facebook {
+    width: 1.2em;
+    padding: 0 0.2em 0 0.1em;
+  }
+
+  .SocialMedia {
+    width: 1.2em;
+    padding: 0 0 0 0.2em;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+	a {
+		text-decoration: none;
 	}
 
-	.school-description{
-		display: none;
-	}
+  .headerNav {
+    background: #0d052e;
+    position: fixed;
+  }
 
-	.violin-img {
-		height: 40.8125em;
-		width: 30.0625em;
-	}
+  nav .navbar-nav li a {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 1em 0 1.5em 5em;
+  }
 
-	.nameDescriptionContainer {
-		padding: 0 5em;
-	}
+  .navLink {
+    margin-left: 25em;
+  }
 
-	.allDescription {
-		margin-top: 1em;
-    }
-    
-    .school-name {
-        font-family: 'Milonga', cursive;
-        text-align: center;
-        font-size: 2.5em;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1.8em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-    }
+  /* CAROUSEL SECTION */
 
-	.about-school {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.2em;
-        color: #000000;
-    }
+  .carousel-inner {
+    display: inline-block;
+    position: relative;
+  }
 
-                      /* Music-classes */
+  .carousel-inner {
+    padding-top: 43.25%;
+    display: block;
+    content: "";
+  }
 
-     .training-classes {
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
-        text-align: center;
-        padding-top: 3em;
-    }	
-        
-    .classes {
-        
-        font-family: 'Milonga', cursive;
-        font-size: 2em;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        
-    }
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
-        
-    }
-        
-    .instrument {
-        width: 5.5067em;
-        margin-top: 1.5em;	
-        
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 9.625em;	
-        height: 9.625em;
-        margin: 0 0 0 2em;
-    }
-        
-    .musical-text {
-        margin: 0 4em;
-    }
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        line-height: 2em;
-        text-align: center;
-        padding: 0 1em;
-    }
+    background: no-repeat right right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+  }
 
-                      /* Tutors-Section */
+  .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to right,
+      #0d052e 5.23%,
+      rgba(13, 5, 46, 0.9) 38.97%,
+      rgba(13, 5, 46, 0.11) 67.73%,
+      rgba(13, 5, 46, 0) 92.44%
+    );
+    background-position: left;
+  }
 
-      .Tutors-section {
+  .carousel-img {
+    width: 100%;
+  }
 
-        background: #F5F4F4;
-        padding: 2em 1em 1em 1em;
-    }
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    margin-top: 3em;
+    text-align: right;
+  }
 
-    .meetTutors {
-        text-align: center;
-    }
+  .caption h1 {
+    margin-bottom: 1.4375em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
 
-    .meetTutors h6 {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2em;
-        margin-top: 1em;
-    }
+  .caption button {
+    margin: 0 8em 8em 0;
+    padding: 0.2em 1em;
+    font-size: 2em;
+    background: #cda253;
+  }
 
-    .pictures {
-        width: 20em;
-        margin-left: -2em;
-    }
+  /* school description */
 
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-        margin: 3em;
-    }
-    
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1em;
-        color: #000000;
-    } 
-    
-    .fullBio-pageLink {
-        text-align: center;	
-    }
-    
-    .bio {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        letter-spacing: 0.11em;
-        text-decoration: none;
-    }
+  .SchoolDescriptionDesktopView {
+    background: #f3f3f3;
+  }
 
-                        /* CONTACT SECTION */
-  
-      .contact {
+  .descritionDesktop {
+    display: flex;
+    flex-direction: row;
+    padding: 10em;
+  }
 
-        position: relative;
-        background:url(./imgs/group_pics.png);
-        box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
-        background-size: cover;
-        background-position: cover;
-        background-blend-mode: overlay;
-        text-align: center;
-        min-height: 55em;
-    } 
+  .school-description {
+    display: none;
+  }
 
-    .contactHead-container {
-        margin-top: 1em;
-    } 
+  .violin-img {
+    height: 40.8125em;
+    width: 30.0625em;
+  }
 
-    .contact-heading {
+  .nameDescriptionContainer {
+    padding: 0 5em;
+  }
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.5em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        padding-top: 2em;
-        
+  .allDescription {
+    margin-top: 1em;
+  }
 
-    }
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-    .music-love{
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.8em;
-        line-height: 1em;
-        color: #F5F4F4;
-        margin-bottom: 2em;
+  .about-school {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #000000;
+  }
 
-    }
+  /* Music-classes */
 
-    .location {
-        position: absolute;
-        width:	33.5875em;
-        height:	32.525em;
-        left: 19.4375em;
-        top: 18.0625em;
-        background: #CDA253;
-        padding: 2em 0 4em 0;
-    }
+  .training-classes {
+    text-align: center;
+    padding-top: 3em;
+  }
 
-    .location-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-    .address-heading {
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size:	1.375em;
-        margin: .2em 0 .2em .2em;
-        color: #F3F3F3;
-    }
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
+  }
 
-    .address {
+  .instrument {
+    width: 5.5067em;
+    margin-top: 1.5em;
+  }
 
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.125em;
-        line-height: 1.4375em;
-        padding: 0 0 3em ;
-        text-align: center;
-        color: #F3F3F3;
-    } 
-    
-    .rockMic-Img {
-        position: absolute;
-        width: 23.0625em;
-        height: 25.125em;
-        left: 45.5em;
-        top: 22.75em;
-        filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15)) drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
-        z-index: 5;
-    }
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 9.625em;
+    height: 9.625em;
+    margin: 0 0 0 2em;
+  }
 
-                 /* FOOTER */
-     footer {
-        text-align: center;
-        background: #F3F3F3;
-    }
+  .musical-text {
+    margin: 0 4em;
+  }
 
-    .handlesContainer {
-        margin: 2em 0;
-    }
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+    padding: 0 1em;
+  }
 
-    .mediaIcon {
-        background: #CDA253;
-        border-radius: 50%;
-        padding: .35em;
-        margin: 0 1em;
-    }
+  /* Tutors-Section */
 
-    /* .SocialMedia {
+  .Tutors-section {
+    background: #f5f4f4;
+    padding: 2em 1em 1em 1em;
+  }
+
+  .meetTutors {
+    text-align: center;
+  }
+
+  .meetTutors h6 {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .pictures {
+    width: 20em;
+    margin-left: -2em;
+  }
+
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+    margin: 3em;
+  }
+
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    color: #000000;
+  }
+
+  .fullBio-pageLink {
+    text-align: center;
+  }
+
+  .bio {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact {
+    position: relative;
+    background: url(./imgs/group_pics.png);
+    box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 55em;
+  }
+
+  .contactHead-container {
+    margin-top: 1em;
+  }
+
+  .contact-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+    padding-top: 2em;
+  }
+
+  .music-love {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 1em;
+    color: #f5f4f4;
+    margin-bottom: 2em;
+  }
+
+  .location {
+    position: absolute;
+    width: 33.5875em;
+    height: 32.525em;
+    left: 19.4375em;
+    top: 18.0625em;
+    background: #cda253;
+    padding: 2em 0 4em 0;
+  }
+
+  .location-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .address-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375em;
+    margin: 0.2em 0 0.2em 0.2em;
+    color: #f3f3f3;
+  }
+
+  .address {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125em;
+    line-height: 1.4375em;
+    padding: 0 0 3em;
+    text-align: center;
+    color: #f3f3f3;
+  }
+
+  .rockMic-Img {
+    position: absolute;
+    width: 23.0625em;
+    height: 25.125em;
+    left: 45.5em;
+    top: 22.75em;
+    filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15))
+      drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
+    z-index: 5;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
+
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 0.35em;
+    margin: 0 1em;
+  }
+
+  /* .SocialMedia {
         width: .8em;
         margin-bottom: .2em;
     } */
 
-    .facebook {
-        width: 1.2em;
-        padding: 0 .2em 0 .1em;
-    }
+  .facebook {
+    width: 1.2em;
+    padding: 0 0.2em 0 0.1em;
+  }
 
-    .SocialMedia{
-        width: 1.2em;
-        padding: 0 0 0 .2em;
-    }
+  .SocialMedia {
+    width: 1.2em;
+    padding: 0 0 0 0.2em;
+  }
 
-    .rights-reserve {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .8em;
-        line-height: 1.0625em;
-        color: #000000;
-    }
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
 
-    .copyright {
-        font-size: 1em;
-    }
- 
+  .copyright {
+    font-size: 1em;
+  }
+}
 
-}  
+@media only screen and (min-width: 2560px) {
 
-@media only screen   and (min-width: 2560px) {
-    
-    .headerNav {
-        background: #0D052E;
-        position: fixed;
-
-    }
-
-    .psmLogo {
-        width: 5em;
-        height: 4em;
-        margin: 2em;
-    }
-
-    nav .navbar-nav li a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.7em;
-        color: #FFFFFF;
-        margin: 1em 0 1.5em 10em;
-    }
-
-    .navLink {
-        margin-left: 20em;
-    }
-
-                         /* CAROUSEL SECTION */
-        
-     .carousel-inner {
-        display: inline-block;
-        position: relative;
-    }
-
-    .carousel-inner {
-        padding-top: 43.25%;
-        display: block;
-        content: "";
-    }
-
-    .carousel-item {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-
-        background: no-repeat right right scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: left;
-    }
-
-    .carousel-item:after {
-        content:"";
-        display:block;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        background: linear-gradient(to right,  #0D052E 5.23%, rgba(13, 5, 46, 0.9) 38.97%, rgba(13, 5, 46, 0.11) 67.73%, rgba(13, 5, 46, 0) 92.44%); 
-        background-position: left;
-        }
-
-    .carousel-img {
-        width: 100%;
-    }
-
-    .caption {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        left: 30%;
-        transform: translateX(-50%) translateY(-50%);
-        width: 50%;
-        z-index: 1;
-        margin-top: 4em;
-        text-align: right;
-    }
-
-    .caption h1 {
-        margin-bottom: 1.4375em;
-        font-family: 'Norican';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10em;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-    }
-
-    .caption button {
-        margin: 0 12em 0 0;
-        padding: .2em 1em;
-        font-size: 3em;
-        background: #CDA253;
-    }  
-
-                     /* school description */
-	
-	.SchoolDescriptionDesktopView {
-		background: #F3F3F3;
+	a {
+		text-decoration: none;
 	}
+	
+  .headerNav {
+    background: #0d052e;
+    position: fixed;
+  }
+
+  .psmLogo {
+    width: 5em;
+    height: 4em;
+    margin: 2em;
+  }
+
+  nav .navbar-nav li a {
+		font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: #ffffff;
+    margin: 1em 0 1.5em 10em;
+  }
+
+  .navLink {
+    margin-left: 20em;
+  }
+
+  /* CAROUSEL SECTION */
+
+  .carousel-inner {
+    display: inline-block;
+    position: relative;
+  }
+
+  .carousel-inner {
+    padding-top: 43.25%;
+    display: block;
+    content: "";
+  }
+
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: no-repeat right right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+  }
+
+  .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to right,
+      #0d052e 5.23%,
+      rgba(13, 5, 46, 0.9) 38.97%,
+      rgba(13, 5, 46, 0.11) 67.73%,
+      rgba(13, 5, 46, 0) 92.44%
+    );
+    background-position: left;
+  }
+
+  .carousel-img {
+    width: 100%;
+  }
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    z-index: 1;
+    margin-top: 4em;
+    text-align: right;
+  }
+
+  .caption h1 {
+    margin-bottom: 1.4375em;
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  .caption button {
+    margin: 0 12em 0 0;
+    padding: 0.2em 1em;
+    font-size: 3em;
+    background: #cda253;
+  }
+
+  /* school description */
+
+  .SchoolDescriptionDesktopView {
+    background: #f3f3f3;
+  }
 
   .descritionDesktop {
-		display: flex;
-		flex-direction: row;
-		padding: 10em;
+    display: flex;
+    flex-direction: row;
+    padding: 10em;
+  }
 
-	}
+  .school-description {
+    display: none;
+  }
 
-	.school-description{
-		display: none;
-	}
+  .violin-img {
+    height: 55.8125em;
+    width: 50.0625em;
+  }
 
-	.violin-img {
-		height: 55.8125em;
-		width: 50.0625em;
-	}
+  .allDescription {
+    margin-top: 1em;
+  }
 
-	.allDescription {
-		margin-top: 1em;
-    }
+  .descritionDesktop {
+    padding: 10em 29em;
+  }
 
-    .descritionDesktop {
-        padding: 10em 29em;
-    }
-    
-    .school-name {
-        font-family: 'Milonga', cursive;
-        text-align: center;
-        font-size: 3em;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1.8em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-    }
+  .school-name {
+    font-family: "Milonga", cursive;
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-	.about-school {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8em;
-        line-height: 2em;
-        color: #000000;
-    }
+  .about-school {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 2em;
+    color: #000000;
+  }
 
-                     /* Music-classes */
+  /* Music-classes */
 
-      .training-classes {
+  .training-classes {
+    text-align: center;
+    padding-top: 3em;
+  }
 
-        text-align: center;
-        padding-top: 3em;
-    }	
-        
-    .classes {
-        
-        font-family: 'Milonga', cursive;
-        font-size: 3.5em;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        
-    }
-        
-    .training-niche {
-        
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2em;
-        line-height: 3.625em;
-        letter-spacing: 0.11em;
-        color: #000000;
-        padding: 0 2em;
-        
-    }
-        
-    .music-instruments {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(35.75em, 1fr));
-        padding: 0 5em;
-    }
-        
-    .instrument {
-        width: 10.5067em;
-        margin-top: 4em;	
-        
-    }
-        
-    .instrument-container {
-        text-align: center;
-        justify-content: center;
-        border:  0.125em solid #CCCCCC;
-        border-radius: 50%;
-        width: 20.625em;	
-        height: 20.625em;
-        margin: 0 0 0 4em;
-    }
-        
-    .musical-text {
-        margin: 0 4em;
-    }
-        
-    .instrument-text {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.7em;
-        line-height: 2em;
-        text-align: center;
-        padding: 0 1em;
-    }
+  .classes {
+    font-family: "Milonga", cursive;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    color: #cda253;
+  }
 
-                    /* Tutors-Section */
+  .training-niche {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 3.625em;
+    letter-spacing: 0.11em;
+    color: #000000;
+    padding: 0 2em;
+  }
 
-     .Tutors-section {
+  .music-instruments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35.75em, 1fr));
+    padding: 0 5em;
+  }
 
-        background: #F5F4F4;
-        padding: 2em 1em 1em 1em;
-    }
+  .instrument {
+    width: 10.5067em;
+    margin-top: 4em;
+  }
 
-    .meetTutors {
-        text-align: center;
-    }
+  .instrument-container {
+    text-align: center;
+    justify-content: center;
+    border: 0.125em solid #cccccc;
+    border-radius: 50%;
+    width: 20.625em;
+    height: 20.625em;
+    margin: 0 0 0 4em;
+  }
 
-    .meetTutors h6 {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3em;
-        margin-top: 1em;
-    }
+  .musical-text {
+    margin: 0 4em;
+  }
 
-    .pictures {
-        width: 30em;
-        margin-left: -2em;
-    }
+  .instrument-text {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7em;
+    line-height: 2em;
+    text-align: center;
+    padding: 0 1em;
+  }
 
-    .tutors-description {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-        grid-gap: 3.125em;
-        text-align: center;
-        margin: 3em;
-        padding: 3em;
-    }
-    
-    .name {
-        font-family: 'Krub' sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 2em;
-        text-transform: uppercase;
-        color: #000000;
-    }
-    
-    .duty {
-        font-family: 'Krub' sans-serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1.5em;
-        color: #000000;
-    } 
-    
-    .fullBio-pageLink {
-        text-align: center;	
-    }
-    
-    .bio {
-        font-family: 'Milonga', cursive;
-        color: #CDA253;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8em;
-        letter-spacing: 0.11em;
-        text-decoration: none;
-    }
+  /* Tutors-Section */
 
-                        /* CONTACT SECTION */
-  
-    .contact {
+  .Tutors-section {
+    background: #f5f4f4;
+    padding: 2em 1em 1em 1em;
+  }
 
-        position: relative;
-        background:url(./imgs/group_pics.png);
-        box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
-        background-size: cover;
-        background-position: cover;
-        background-blend-mode: overlay;
-        text-align: center;
-        min-height: 100em;
-    } 
+  .meetTutors {
+    text-align: center;
+  }
 
-    .contactHead-container {
-        margin-top: 1em;
-    } 
+  .meetTutors h6 {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    margin-top: 1em;
+  }
 
-    .contact-heading {
+  .pictures {
+    width: 30em;
+    margin-left: -2em;
+  }
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3.5em;
-        letter-spacing: 0.11em;
-        color: #CDA253;
-        padding-top: 4em;
-        
-    }
+  .tutors-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-gap: 3.125em;
+    text-align: center;
+    margin: 3em;
+    padding: 3em;
+  }
 
-    .music-love{
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 2em;
-        line-height: 1em;
-        color: #F5F4F4;
-        margin-bottom: 2em;
+  .name {
+    font-family: "Krub" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #000000;
+  }
 
-    }
+  .duty {
+    font-family: "Krub" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #000000;
+  }
 
-    .location {
-        position: absolute;
-        width:	58.5875em;
-        height:	54.525em;
-        left: 35.4375em;
-        top: 35.0625em;
-        background: #CDA253;
-        padding: 2em 0 4em 0;
-    }
+  .fullBio-pageLink {
+    text-align: center;
+  }
 
-    .location-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+  .bio {
+    font-family: "Milonga", cursive;
+    color: #cda253;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+  }
 
-    .address-heading {
+  /* CONTACT SECTION */
 
-        font-family: 'Milonga', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size:	2em;
-        margin: .2em 0 .2em .2em;
-        color: #F3F3F3;
-    }
+  .contact {
+    position: relative;
+    background: url(./imgs/group_pics.png);
+    box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 100em;
+  }
 
-    .address {
+  .contactHead-container {
+    margin-top: 1em;
+  }
 
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.825em;
-        line-height: 1.4375em;
-        padding: 0 0 3em ;
-        text-align: center;
-        color: #F3F3F3;
-    } 
-    
-    .rockMic-Img {
-        position: absolute;
-        width: 37.0625em;
-        height: 39.125em;
-        left: 75.5em;
-        top: 39.75em;
-        filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15)) drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
-        z-index: 5;
-    }
+  .contact-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5em;
+    letter-spacing: 0.11em;
+    color: #cda253;
+    padding-top: 4em;
+  }
 
-                         /* FOOTER */
-    footer {
-        text-align: center;
-        background: #F3F3F3;
-    }
+  .music-love {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1em;
+    color: #f5f4f4;
+    margin-bottom: 2em;
+  }
 
-    .psmLogoFooter {
-        width: 10em;
-    }
+  .location {
+    position: absolute;
+    width: 58.5875em;
+    height: 54.525em;
+    left: 35.4375em;
+    top: 35.0625em;
+    background: #cda253;
+    padding: 2em 0 4em 0;
+  }
 
-    .handlesContainer {
-        margin: 2em 0;
-    }
+  .location-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mediaIcon {
-        background: #CDA253;
-        border-radius: 50%;
-        padding: 1em;
-        margin: 0 1em;
-    }
+  .address-heading {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0.2em 0 0.2em 0.2em;
+    color: #f3f3f3;
+  }
 
-    .facebook {
-        width: 1.5em;
-        padding: 0 .2em 0 .1em;
-    }
+  .address {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.825em;
+    line-height: 1.4375em;
+    padding: 0 0 3em;
+    text-align: center;
+    color: #f3f3f3;
+  }
 
-    .SocialMedia{
-        width: 1.5em;
-        padding: 0 0 0 .2em;
-    }
+  .rockMic-Img {
+    position: absolute;
+    width: 37.0625em;
+    height: 39.125em;
+    left: 75.5em;
+    top: 39.75em;
+    filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15))
+      drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
+    z-index: 5;
+  }
 
-    .rights-reserve {
-        font-family: 'Krub', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5em;
-        line-height: 1.0625em;
-        color: #000000;
-    }
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: #f3f3f3;
+  }
 
-    .copyright {
-        font-size: 1.2em;
-    }
+  .psmLogoFooter {
+    width: 10em;
+  }
 
+  .handlesContainer {
+    margin: 2em 0;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 0 1em;
+  }
+
+  .facebook {
+    width: 1.5em;
+    padding: 0 0.2em 0 0.1em;
+  }
+
+  .SocialMedia {
+    width: 1.5em;
+    padding: 0 0 0 0.2em;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.0625em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 1.2em;
+  }
 }
