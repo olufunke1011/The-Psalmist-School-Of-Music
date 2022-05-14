@@ -2186,7 +2186,7 @@
 
   .Tutors-section {
     background: #f5f4f4;
-    padding: 2em 1em 1em 1em;
+    padding: 4em 1em 1em 1em;
   }
 
   .meetTutors {
@@ -2203,13 +2203,13 @@
   }
 
   .pictures {
-    width: 30em;
+    width: 25.625em;
     margin-left: -2em;
   }
 
   .tutors-description {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20.75em, 1fr));
     grid-gap: 3.125em;
     text-align: center;
     margin: 3em;
@@ -2242,7 +2242,7 @@
     color: #cda253;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 2em;
     letter-spacing: 0.11em;
     text-decoration: none;
   }
