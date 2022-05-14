@@ -2150,13 +2150,12 @@
 
   .music-instruments {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35.75em, 1fr));
-    padding: 0 5em;
+    grid-template-columns: repeat(auto-fit, minmax(25.75em, 1fr));
   }
 
   .instrument {
-    width: 10.5067em;
-    margin-top: 4em;
+    width: 9.5067em;
+    margin-top: 2.5em;
   }
 
   .instrument-container {
@@ -2164,9 +2163,9 @@
     justify-content: center;
     border: 0.125em solid #cccccc;
     border-radius: 50%;
-    width: 20.625em;
-    height: 20.625em;
-    margin: 0 0 0 4em;
+    width: 15.625em;
+    height: 15.625em;
+    margin: 0 0 0 2em;
   }
 
   .musical-text {
@@ -2177,7 +2176,7 @@
     font-family: "Krub", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.7em;
+    font-size: 1.3em;
     line-height: 2em;
     text-align: center;
     padding: 0 1em;
