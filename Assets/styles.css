@@ -2253,11 +2253,11 @@
     position: relative;
     background: url(./imgs/group_pics.png);
     box-shadow: inset 0 0 0 100em rgba(25, 39, 62, 0.88);
-    background-size: cover;
-    background-position: cover;
+    background-size: contain;
+    background-position: contain;
     background-blend-mode: overlay;
     text-align: center;
-    min-height: 100em;
+    min-height: 83em;
   }
 
   .contactHead-container {
@@ -2286,12 +2286,12 @@
 
   .location {
     position: absolute;
-    width: 58.5875em;
-    height: 54.525em;
-    left: 35.4375em;
-    top: 35.0625em;
+    width: 42.5875em;
+    height: 38.525em;
+    left: 28.4375em;
+    top: 27.0625em;
     background: #cda253;
-    padding: 2em 0 4em 0;
+    /* padding: 2em 0 4em 0; */
   }
 
   .location-icons {
@@ -2305,7 +2305,7 @@
     font-family: "Milonga", cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0.2em 0 0.2em 0.2em;
     color: #f3f3f3;
   }
@@ -2314,8 +2314,8 @@
     font-family: "Krub", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.825em;
-    line-height: 1.4375em;
+    font-size: 1.5em;
+    /* line-height: 1.4375em; */
     padding: 0 0 3em;
     text-align: center;
     color: #f3f3f3;
@@ -2323,10 +2323,10 @@
 
   .rockMic-Img {
     position: absolute;
-    width: 37.0625em;
-    height: 39.125em;
-    left: 75.5em;
-    top: 39.75em;
+    width: 30.0625em;
+    height: 32.125em;
+    left: 60.5em;
+    top: 29.95em;
     filter: drop-shadow(4px 0px 45px rgba(255, 168, 0, 0.15))
       drop-shadow(-5px 4px 44px rgba(0, 0, 0, 0.44));
     z-index: 5;
