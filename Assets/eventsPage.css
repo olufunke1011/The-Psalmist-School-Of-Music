@@ -121,6 +121,99 @@
   }
 }
 
+@media only screen and (min-width: 641px) {
+
+  .mobileView {
+    display: block;
+  }
+
+  .desktopView {
+    display: none;
+  }
+
+  .eventsHeading {
+    background: url(./imgs/events-header.png),
+      linear-gradient(rgba(13, 5, 46, 0.71), rgba(13, 5, 46, 0.71));
+    background-size: cover;
+    background-position: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    min-height: 25.25em;
+  }
+
+  nav .navbar-nav li a {
+    font-size: 1.5em;
+    margin: 0.5em 0 0 3em;
+  }
+
+  .navLink {
+    min-height: 17em;
+    padding: 1em 0;
+  }
+
+  .eventsTitle {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color: #cda253;
+    padding: 4em 4em;
+  }
+
+  .pastEventsText {
+    font-family: "Milonga", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-align: center;
+    color: #cda253;
+    padding: 1em 2em 0 2em;
+  }
+
+  .EventsFlyers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  }
+
+  .flyer {
+    width: 23.1875em;
+    height: 18.4375em;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  .mediaIcon {
+    background: #cda253;
+    border-radius: 50%;
+    width: 2.1875em;
+    height: 2.1875em;
+    padding: 0.35em;
+    margin: 2em 2em;
+  }
+
+  .SocialMedia {
+    width: 1.0625em;
+    margin: 0.2em 0;
+  }
+
+  .rights-reserve {
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    margin-top: 3em;
+    color: #000000;
+  }
+
+  .copyright {
+    font-size: 0.9em;
+  }
+
+}
+
 @media only screen and (min-width: 768px) {
   .mobileView {
     display: block;
